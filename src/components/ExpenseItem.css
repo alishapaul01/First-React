@@ -20,13 +20,16 @@
     justify-content: flex-start;
     flex: 1;
   }
+  .expense-item__location{
   
-  .expense-item h2 {
     font-size: 1rem;
-    flex: 1;
-    margin: 0 1rem;
+    flex: 2;
+    margin-left: 1rem;
     color: white;
-  }
+    text-align: left;
+    }
+
+  
   
   .expense-item__price {
     font-size: 1rem;
@@ -38,18 +41,15 @@
     border-radius: 12px;
 
   }
-  
-  .expense-item__location{
-    font-weight: bold;
-    color: white;
-    align-items: flex-start;
-    flex-flow: column-reverse;
-    justify-content: center;
-    flex: 3;
-    display: flex;
-    
-  }
 
+  .expense-item h2 {
+    font-size: 1rem;
+    flex: 2;
+    margin: 0 1rem;
+    color: white;
+  }
+  
+  
   
   
   @media (min-width: 580px) {
@@ -66,7 +66,6 @@
     
     .expense-item__location{
       font-size: 1.25rem;
-    
 
     }
     .expense-item__price {
