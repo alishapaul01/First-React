@@ -36,10 +36,16 @@ const App=()=> {
       location: 'Furniture Market'
     },
   ];
+
+  const addExpenseHandler = expense =>{
+    console.log('In App.js');
+    console.log(expense);
+  }
   return (
     <div>
-      <NewExpense />
+      <NewExpense  onAddExpense={addExpenseHandler}/>
       <Expenses items={expenses}/>
+      
     </div>
   );
 }
