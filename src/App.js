@@ -8,29 +8,26 @@ const DUMMY_EXPENSES = [
     id: 'e1',
     title: 'Toilet Paper',
     amount: 94.12,
-    date: new Date(2020, 7, 14),
-    location: 'Vishal MegaMart'
+    date: new Date(2022, 7, 14),
   },
   { 
     id: 'e2',
      title: 'New TV', 
-     amount: 99.45, 
-     date: new Date(2021, 2, 12),
-     location: 'Vijay Sales'
+     amount: 799.45, 
+     date: new Date(2022, 2, 12),
+     
   },
   {
     id: 'e3',
     title: 'Car Insurance',
     amount: 25.39,
-    date: new Date(2021, 2, 28),
-    location: 'Car Showroom'
+    date: new Date(2023, 2, 28),
   },
   {
     id: 'e4',
     title: 'New Desk (Wooden)',
     amount: 95.01,
-    date: new Date(2021, 5, 12),
-    location: 'Furniture Market'
+    date: new Date(2023, 5, 12)
   },
 ];
 

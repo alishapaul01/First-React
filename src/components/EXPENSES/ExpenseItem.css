@@ -27,13 +27,6 @@
   margin: 0 1rem;
   color: white;
 }
-.expense-item__location{
-  color:white;
-  display:flex;
-  font-weight: bold;
-  text-align: left;
-  flex:1;
-}
 
 .expense-item__price {
   font-size: 1rem;
@@ -56,10 +49,6 @@
   .expense-item__description h2 {
     font-size: 1.25rem;
   }
-  .expense-item__location {
-    font-size: 1.25rem;
-  }
-
 
   .expense-item__price {
     font-size: 1.25rem;
